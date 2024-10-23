@@ -16,6 +16,12 @@ header {
     position: relative;
 }
 
+.logo img {
+    width: 150px; 
+    height: auto;
+    cursor: pointer;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -44,7 +50,7 @@ header {
     font-size: 1.2rem;
 }
 
-/* Search Bar Below Header */
+/* Search Bar*/
 .search-container {
     margin: 20px auto;
     width: 90%;
