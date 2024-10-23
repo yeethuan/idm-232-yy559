@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <header>
         <nav class="navbar">
             <h1>Simmer</h1>
@@ -21,5 +20,51 @@
         </nav>
     </header>
 
+    <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Search recipes..." onkeyup="searchRecipes()">
+    </div>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Discover Delicious Recipes</h2>
+            <p>Your journey to better cooking starts here!</p>
+            <a href="#recipes" class="btn">Explore Recipes</a>
+        </div>
+    </section>
+
+    <section id="recipes" class="recipes-section">
+        <h2>Header</h2>
+        <div class="recipe-grid" id="recipe-grid">
+            <div class="recipe-card">
+                <img src="recipe1.jpg" alt="Recipe Image">
+                <h3>Recipe Header 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="recipe-card">
+                <img src="recipe2.jpg" alt="Recipe Image">
+                <h3>Recipe Header 2</h3>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
+            </div>
+            <div class="recipe-card">
+                <img src="recipe3.jpg" alt="Recipe Image">
+                <h3>Recipe Header 3</h3>
+                <p>Cras et neque vel nunc vehicula efficitur.</p>
+            </div>
+        </div>
+        <div id="no-results" style="display: none;">
+            <p>No recipes found. Try searching for something else!</p>
+        </div>
+    </section>
+
+    <!-- Ask Button -->
+    <div class="ask-button">
+        <button id="ask-btn">Ask a Question</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Simmer. All Rights Reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
 </body>
 </html>
