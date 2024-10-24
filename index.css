@@ -325,7 +325,7 @@ footer p {
     }
 
     #hero {
-        height: 30vh; 
+        height: 40vh; 
     }
 
     .hero-content h2 {
@@ -334,5 +334,13 @@ footer p {
 
     .hero-content p {
         font-size: 0.9rem; 
+    }
+
+    .recipe-grid {
+        grid-template-columns: 1fr; /* Stack items in a single column */
+    }
+
+    .recipe-card {
+        margin-bottom: 20px; /* Add some spacing between stacked cards */
     }
 }
