@@ -260,9 +260,22 @@ footer p {
         flex-direction: column;
     }
 
-    .ingredients, .steps {
+    .ingredients,
+    .steps {
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    #hero {
+        height: 35vh; 
+    }
+
+    .hero-content h2 {
+        font-size: 30px;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
     }
 }
 
@@ -274,6 +287,7 @@ footer p {
     .recipe-info h1 {
         font-size: 2rem;
     }
+
     #nav-menu {
         display: none;
         flex-direction: column;
@@ -294,11 +308,31 @@ footer p {
     .menu-icon {
         display: block; 
         margin-left: auto; 
-        color:#A31200;
+        color: #A31200;
     }
 
     .show-menu {
-        display: flex; /* Show menu when the class is active */
+        display: flex;
     }
 
+
+    .search-container {
+        width: 95%; 
+    }
+
+    #search-bar {
+        font-size: 1rem; 
+    }
+
+    #hero {
+        height: 30vh; 
+    }
+
+    .hero-content h2 {
+        font-size: 24px;
+    }
+
+    .hero-content p {
+        font-size: 0.9rem; 
+    }
 }
