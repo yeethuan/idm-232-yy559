@@ -11,15 +11,17 @@ body {
 }
 
 header {
-    background-color: #D41500;
+    background-color: #ffffff;
     padding: 20px 0;
     position: relative;
 }
 
 .logo img {
-    width: 150px; 
+    width: 50px; 
     height: auto;
     cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    border-radius: 7px;
 }
 
 .navbar {
@@ -32,7 +34,7 @@ header {
 
 .navbar h1 {
     font-size: 2rem;
-    color: white;
+    color: #A31200;
 }
 
 .navbar ul {
@@ -46,7 +48,7 @@ header {
 
 .navbar ul li a {
     text-decoration: none;
-    color: white;
+    color: #A31200;
     font-size: 1.2rem;
 }
 
@@ -64,6 +66,16 @@ header {
     font-size: 1.2rem;
     border: none;
     border-radius: 5px;
+    outline-color: #A31200;
+}
+
+.search-icon {
+    position: absolute;
+    right: 15px; 
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: #777;
 }
 
 /* Hero Section */
@@ -71,27 +83,32 @@ header {
     background-image: url('hero.jpg');
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 45vh;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
 .hero-content {
     text-align: center;
     color: white;
-    background: rgba(0, 0, 0, 0.5);
+    background: #A31200;
+    border-color: #A31200;
     padding: 30px;
     border-radius: 10px;
+    opacity: ;
 }
 
 .hero-content h2 {
-    font-size: 3rem;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 20px;
+    font-family:'trebuchet', 'arial', 'open sans';
 }
 
 .hero-content p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 20px;
+
 }
 
 .btn {
@@ -160,7 +177,7 @@ header {
 #no-results {
     margin-top: 30px;
     font-size: 1.2rem;
-    color: #555;
+    color: #A31200;
 }
 
 /* Ask Button */

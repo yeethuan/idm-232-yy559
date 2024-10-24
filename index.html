@@ -6,12 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Simmer</title>
     <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/f4cf6f4ce3.js" crossorigin="anonymous"></script>
 </head>
+
+
 <body>
     <header>
         <nav class="navbar">
             <a href="#home" class="logo">
-                <img src="logo.png" alt="Simmer Logo" />
+                <img src="media/simmer-logo.png" alt="Simmer Logo" />
             </a>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -22,33 +25,39 @@
         </nav>
     </header>
 
-    <div class="search-container">
-        <input type="text" id="search-bar" placeholder="Search recipes..." onkeyup="searchRecipes()">
-    </div>
 
     <section id="hero">
         <div class="hero-content">
             <h2>Discover Delicious Recipes</h2>
             <p>Your journey to better cooking starts here!</p>
+            <div class="search-container">
+                <input type="text" id="search-bar" placeholder="Search recipes..." onkeyup="searchRecipes()">
+                <a href="#home">
+                    <i class="fas fa-search search-icon"></i>
+                </a>
+                <a href="#home" class="logo">
+                    <img src="media/simmer-altlogo.png" alt="Another Logo" />
+                </a>
+            </div>
             <a href="#recipes" class="btn">Explore Recipes</a>
         </div>
     </section>
 
     <section id="recipes" class="recipes-section">
-        <h2>Header</h2>
+        <h2>Trending Recipes</h2>   
         <div class="recipe-grid" id="recipe-grid">
             <div class="recipe-card">
-                <img src="recipe1.jpg" alt="Recipe Image">
+                <img src="media/steak-fries.jpg" alt="Recipe Image">
                 <h3>Recipe Header 1</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             <div class="recipe-card">
-                <img src="recipe2.jpg" alt="Recipe Image">
+                <img src="media/steak-fries.jpg" alt="Recipe Image">
                 <h3>Recipe Header 2</h3>
                 <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
             </div>
             <div class="recipe-card">
-                <img src="recipe3.jpg" alt="Recipe Image">
+                <img src="media/steak-fries.jpg" alt="Recipe Image">
                 <h3>Recipe Header 3</h3>
                 <p>Cras et neque vel nunc vehicula efficitur.</p>
             </div>
