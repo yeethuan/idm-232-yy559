@@ -168,6 +168,15 @@ header {
     transform: translateY(-10px);
 }
 
+.recipe-card a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.recipe-card a:visited {
+    text-decoration: none;
+}
+
 /* No Results Message */
 #no-results {
     margin-top: 30px;

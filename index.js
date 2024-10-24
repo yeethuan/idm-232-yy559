@@ -1,3 +1,12 @@
+// Responsive Hamburger
+document.getElementById("menu-icon").addEventListener("click", function() {
+    const navMenu = document.getElementById("nav-menu");
+    navMenu.classList.toggle("show-menu");
+});
+
+
+// "Search Bar and no results" 
+
 function searchRecipes() {
     const input = document.getElementById('search-bar').value.toLowerCase();
     const recipes = document.querySelectorAll('.recipe-card');
@@ -21,7 +30,8 @@ function searchRecipes() {
     }
 }
 
-// Example functionality for the "Ask a Question" button
+// "Ask a Question" 
 document.getElementById('ask-btn').addEventListener('click', function() {
-    alert('Feel free to ask your questions here!');
+    alert('Use the search bar to type in the name of an ingredient, cuisine, or recipe name or browse through our navigation menu to find what you are looking for!');
 });
+
