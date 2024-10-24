@@ -53,72 +53,7 @@ header {
 }
 
 
-/* Search Bar*/
-.search-container {
-    margin: 20px auto;
-    width: 90%;
-    max-width: 500px;
-    text-align: center;
-}
 
-#search-bar {
-    width: 100%;
-    padding: 10px;
-    font-size: 1.2rem;
-    border: none;
-    border-radius: 5px;
-    outline-color: #A31200;
-}
-
-
-/* Hero Section */
-#hero {
-    background-image: url('hero.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 45vh;
-    display: flex;
-    justify-content: center;
-}
-
-.hero-content {
-    text-align: center;
-    color: white;
-    background: #A31200;
-    border-color: #A31200;
-    padding: 30px;
-    border-radius: 10px;
-    opacity:1;
-}
-
-.hero-content h2 {
-    font-size: 40px;
-    font-weight: 800;
-    margin: 20px;
-    font-family:'trebuchet', 'arial', 'open sans';
-}
-
-.hero-content p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-
-}
-
-.btn {
-    background-color: #6b0000;
-    color:#ffffff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1.2rem;
-}
-
-.btn:hover {
-    background-color: #D41500;
-    color: white;
-}
-
-/* Recipes Section */
 .recipes-section {
     padding: 50px 0;
     background-color: #fefefe;
