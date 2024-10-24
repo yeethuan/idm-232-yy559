@@ -200,6 +200,14 @@ footer p {
         width: 100%;
         margin-bottom: 20px;
     }
+
+    .recipe-grid {
+        grid-template-columns: 2fr; 
+    }
+
+    .recipe-card {
+        margin-bottom: 20px; 
+    }
 }
 
 @media (max-width: 600px) {
@@ -234,7 +242,15 @@ footer p {
     }
 
     .show-menu {
-        display: flex; /* Show menu when the class is active */
+        display: flex; 
+    }
+
+    .recipe-grid {
+        grid-template-columns: 1fr; 
+    }
+
+    .recipe-card {
+        margin-bottom: 20px; 
     }
 
 }

@@ -337,10 +337,10 @@ footer p {
     }
 
     .recipe-grid {
-        grid-template-columns: 1fr; /* Stack items in a single column */
+        grid-template-columns: 1fr; 
     }
 
     .recipe-card {
-        margin-bottom: 20px; /* Add some spacing between stacked cards */
+        margin-bottom: 20px; 
     }
 }
