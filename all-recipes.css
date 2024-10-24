@@ -63,7 +63,7 @@ header {
 .recipes-section h2 {
     font-size: 2.5rem;
     margin-bottom: 30px;
-    color: #D41500;
+    color: #6b0000;
 }
 
 .recipe-grid {
@@ -91,15 +91,32 @@ header {
 .recipe-card h3 {
     font-size: 1.8rem;
     margin-bottom: 10px;
+    text-decoration: none;
 }
 
 .recipe-card p {
     font-size: 1rem;
     color: #777;
+    text-decoration: none;
 }
 
 .recipe-card:hover {
     transform: translateY(-10px);
+}
+
+.recipe-card a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.recipe-card a:visited {
+    text-decoration: none;
+}
+
+.recipe-card a:hover,
+.recipe-card a:focus,
+.recipe-card a:active {
+    text-decoration: none;
 }
 
 /* No Results Message */

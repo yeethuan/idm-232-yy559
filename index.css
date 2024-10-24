@@ -126,9 +126,9 @@ header {
 }
 
 .recipes-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 30px;
-    color: #D41500;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    color: #6b0000;
 }
 
 .recipe-grid {
@@ -161,6 +161,7 @@ header {
 .recipe-card p {
     font-size: 1rem;
     color: #777;
+    text-align: left;
 }
 
 .recipe-card:hover {
